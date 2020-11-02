@@ -7,4 +7,9 @@ public class Test {
 		System.out.println("Hello World111111");
 		System.out.println("Hello World2222222");
 	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 }
